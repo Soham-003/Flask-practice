@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h2>Calculator</h2>
+    <form action="/calculate" method="post">
+        <input type="number" name="num1" placeholder="Enter number 1" required>
+        <br>
+        <input type="number" name="num2" placeholder="Enter number 2" required>
+        <br>
+        <button type="submit" name="operation" value="addition">Addition</button>
+        <button type="submit" name="operation" value="subtraction">Subtraction</button>
+        <button type="submit" name="operation" value="multiplication">Multiplication</button>
+        <button type="submit" name="operation" value="division">Division</button>
+    </form>
+
+    <div id="result"></div>
+</body>
+</html>
